@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16896C87BA5FB73BDEF2AF95 /* Pods_RACTestDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338BD076A4B0FDA3AF943FD5 /* Pods_RACTestDemoUITests.framework */; };
+		18CD27B118E62F757A2E5847 /* libPods-RACTestDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5B8C51543B05CC95DEEF18 /* libPods-RACTestDemoTests.a */; };
 		38188CD11ED3CBFB00AF59FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38188CD01ED3CBFB00AF59FE /* main.m */; };
 		38188CD41ED3CBFB00AF59FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38188CD31ED3CBFB00AF59FE /* AppDelegate.m */; };
 		38188CD71ED3CBFB00AF59FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38188CD61ED3CBFB00AF59FE /* ViewController.m */; };
@@ -16,8 +16,8 @@
 		38188CDF1ED3CBFB00AF59FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38188CDD1ED3CBFB00AF59FE /* LaunchScreen.storyboard */; };
 		38188CEA1ED3CBFC00AF59FE /* RACTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38188CE91ED3CBFC00AF59FE /* RACTestDemoTests.m */; };
 		38188CF51ED3CBFC00AF59FE /* RACTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38188CF41ED3CBFC00AF59FE /* RACTestDemoUITests.m */; };
-		8E67304542BB1B88299D6E26 /* Pods_RACTestDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1E6449BE4F34AE8A3EAEFC /* Pods_RACTestDemoTests.framework */; };
-		B947D5B4B78927CBA6A78A33 /* Pods_RACTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4369A645F91B6E6FFF0A9F9A /* Pods_RACTestDemo.framework */; };
+		3E353519F72AF4D7CBD872B5 /* libPods-RACTestDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C562F1379F6EED6F45D1E3D3 /* libPods-RACTestDemoUITests.a */; };
+		869727F4791180DB15C81AD4 /* libPods-RACTestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7545729C2820179F8D79148A /* libPods-RACTestDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 /* Begin PBXFileReference section */
 		02DED6038C4F944F90B94960 /* Pods-RACTestDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACTestDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACTestDemoUITests/Pods-RACTestDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0526426C243731532B5A806A /* Pods-RACTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACTestDemo/Pods-RACTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		338BD076A4B0FDA3AF943FD5 /* Pods_RACTestDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACTestDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38188CCC1ED3CBFB00AF59FE /* RACTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38188CD01ED3CBFB00AF59FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38188CD21ED3CBFB00AF59FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,12 +56,13 @@
 		38188CF01ED3CBFC00AF59FE /* RACTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38188CF41ED3CBFC00AF59FE /* RACTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACTestDemoUITests.m; sourceTree = "<group>"; };
 		38188CF61ED3CBFC00AF59FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38188D021ED3CC1400AF59FE /* RACTestDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACTestDemo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		4369A645F91B6E6FFF0A9F9A /* Pods_RACTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E897251ED3D349007362C4 /* RACTestDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACTestDemo-Prefix.pch"; sourceTree = "<group>"; };
+		6D5B8C51543B05CC95DEEF18 /* libPods-RACTestDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACTestDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		734E34CC0B21C6942B6A1C2B /* Pods-RACTestDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACTestDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACTestDemoUITests/Pods-RACTestDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		747E544CDBB69FDD7456FDD5 /* Pods-RACTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACTestDemo/Pods-RACTestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7545729C2820179F8D79148A /* libPods-RACTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACTestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C562F1379F6EED6F45D1E3D3 /* libPods-RACTestDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACTestDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0861EB1A505CDEE2DDC1443 /* Pods-RACTestDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACTestDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACTestDemoTests/Pods-RACTestDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DD1E6449BE4F34AE8A3EAEFC /* Pods_RACTestDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACTestDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0088326A2DA746129AED1C /* Pods-RACTestDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACTestDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACTestDemoTests/Pods-RACTestDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B947D5B4B78927CBA6A78A33 /* Pods_RACTestDemo.framework in Frameworks */,
+				869727F4791180DB15C81AD4 /* libPods-RACTestDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E67304542BB1B88299D6E26 /* Pods_RACTestDemoTests.framework in Frameworks */,
+				18CD27B118E62F757A2E5847 /* libPods-RACTestDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16896C87BA5FB73BDEF2AF95 /* Pods_RACTestDemoUITests.framework in Frameworks */,
+				3E353519F72AF4D7CBD872B5 /* libPods-RACTestDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +97,9 @@
 		1122D25FED0702A2C11297B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4369A645F91B6E6FFF0A9F9A /* Pods_RACTestDemo.framework */,
-				DD1E6449BE4F34AE8A3EAEFC /* Pods_RACTestDemoTests.framework */,
-				338BD076A4B0FDA3AF943FD5 /* Pods_RACTestDemoUITests.framework */,
+				7545729C2820179F8D79148A /* libPods-RACTestDemo.a */,
+				6D5B8C51543B05CC95DEEF18 /* libPods-RACTestDemoTests.a */,
+				C562F1379F6EED6F45D1E3D3 /* libPods-RACTestDemoUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 		38188CCF1ED3CBFB00AF59FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				38188D021ED3CC1400AF59FE /* RACTestDemo-Prefix.pch */,
+				38E897251ED3D349007362C4 /* RACTestDemo-Prefix.pch */,
 				38188CD01ED3CBFB00AF59FE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -258,6 +258,7 @@
 				TargetAttributes = {
 					38188CCB1ED3CBFB00AF59FE = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					38188CE41ED3CBFC00AF59FE = {
@@ -622,6 +623,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jinnuofeng.RACTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -636,6 +638,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jinnuofeng.RACTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -708,6 +711,7 @@
 				38188CFB1ED3CBFC00AF59FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38188CFC1ED3CBFC00AF59FE /* Build configuration list for PBXNativeTarget "RACTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -716,6 +720,7 @@
 				38188CFE1ED3CBFC00AF59FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38188CFF1ED3CBFC00AF59FE /* Build configuration list for PBXNativeTarget "RACTestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -724,6 +729,7 @@
 				38188D011ED3CBFC00AF59FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
